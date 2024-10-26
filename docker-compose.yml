@@ -1,0 +1,6 @@
+services:
+  playcatalog.service:
+    image: ${DOCKER_REGISTRY-}playcatalogservice
+    build:
+      context: .
+      dockerfile: src/PlayCatalog.service/Dockerfile

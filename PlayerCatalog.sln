@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1AACA7D0-BBF1-4A1D-9B92-62DF47D57A54}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayCatalog.service", "src\PlayCatalog.service\PlayCatalog.service.csproj", "{53D2380A-8CDF-4714-9D04-E130047779E9}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{3A9C91A8-D6CC-4D13-9D0D-E7E24EB45806}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53D2380A-8CDF-4714-9D04-E130047779E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53D2380A-8CDF-4714-9D04-E130047779E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53D2380A-8CDF-4714-9D04-E130047779E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53D2380A-8CDF-4714-9D04-E130047779E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A9C91A8-D6CC-4D13-9D0D-E7E24EB45806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A9C91A8-D6CC-4D13-9D0D-E7E24EB45806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A9C91A8-D6CC-4D13-9D0D-E7E24EB45806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A9C91A8-D6CC-4D13-9D0D-E7E24EB45806}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{53D2380A-8CDF-4714-9D04-E130047779E9} = {1AACA7D0-BBF1-4A1D-9B92-62DF47D57A54}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E4F6E0D-729C-4911-A8ED-BEE481557E1C}
+	EndGlobalSection
+EndGlobal
